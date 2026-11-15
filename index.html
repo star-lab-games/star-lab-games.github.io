@@ -1,15 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Star Lab Games</title>
-<style>body{font:16px/1.55 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;color:#1d1b2e}h1{line-height:1.2}li{margin:.4em 0}</style>
-</head><body>
-<h1>Star Lab Games</h1>
-<p>Small, fair one-tap games by Star Lab Systems, United Kingdom.</p>
-<ul>
-  <li><strong>Orbit Hop</strong>: leap between glowing liquid rings before yours drains dry.</li>
-  <li><strong>Plonk! Block Puzzle</strong>: a fair block puzzle.</li>
-</ul>
-<!-- Add Play / browser links per game once each is live (docs/14 D). -->
-<p><a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:game.support@starlabsystems.uk">game.support@starlabsystems.uk</a></p>
-</body></html>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<title>Star Lab Games: small, fair games for your phone</title>
+<meta name="description" content="Small, fair one-tap and one-thumb games from Star Lab Systems in the UK. Free on Google Play. Difficulty is the same for everyone and ads never change the game.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css?v=1">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="/" aria-label="Star Lab Games home">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="36" width="14" height="14" rx="4" fill="#ff6cb5"/><rect x="25" y="36" width="14" height="14" rx="4" fill="#ffc53d"/><rect x="40" y="36" width="14" height="14" rx="4" fill="#2bd69b"/><path d="M32 8l3.6 9.4L45 21l-9.4 3.6L32 34l-3.6-9.4L19 21l9.4-3.6z" fill="#39a7ff"/></svg>
+    Star Lab Games
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="/" aria-current="page">Games</a>
+    <a href="/support">Help</a>
+    <a href="/privacy">Privacy</a>
+  </nav>
+</header>
+<main>
+<section class="hero">
+  <h1>Small games. <span>Fair play.</span></h1>
+  <p>Quick, bright games you can play with one thumb. Free on Google Play, made in the UK by Star Lab Systems.</p>
+</section>
+
+<section aria-labelledby="games-h">
+  <h2 id="games-h">Our games</h2>
+  <div class="games">
+    <article class="game">
+      <div class="head">
+        <img src="/img/plonk/icon.png" alt="" width="76" height="76">
+        <div><h3>Plonk! Block Puzzle</h3><span class="tag">On Google Play</span></div>
+      </div>
+      <p>Drop blocks, clear lines and chain combos on an 8x8 board. Relaxing, bright and fair: the pieces depend only on your score.</p>
+      <div class="links">
+        <a class="btn go" href="https://play.google.com/store/apps/details?id=uk.starlabsystems.games.plonk">Get it on Google Play</a>
+        <a class="btn" href="/plonk">About Plonk!</a>
+      </div>
+    </article>
+    <article class="game">
+      <div class="head">
+        <img src="/img/orbithop/icon.png" alt="" width="76" height="76">
+        <div><h3>Orbit Hop</h3><span class="tag soon">Coming soon</span></div>
+      </div>
+      <p>Leap between glowing liquid rings before yours drains dry. One tap, endless, and harder the further you get.</p>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="fair-h">
+  <h2 id="fair-h">Our fair play promise</h2>
+  <div class="promise">
+    <div><h3>Same game for everyone</h3><p>Difficulty depends only on your score or level. Never on your device, country, or whether you watch ads.</p></div>
+    <div><h3>No rigged losses</h3><p>We never make you lose to show you an ad, and we never change your score behind your back.</p></div>
+    <div><h3>Ads you choose</h3><p>Rewarded ads are always marked, and "No thanks" is just as big. Close an ad early and nothing is taken from you.</p></div>
+    <div><h3>Your data stays put</h3><p>No accounts and no tracking of our own. Scores and saved games stay on your phone.</p></div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="row">
+    <a href="/">All games</a>
+    <a href="/support">Help and contact</a>
+    <a href="/privacy">Privacy policy</a>
+    <a href="mailto:game.support@starlabsystems.uk">game.support@starlabsystems.uk</a>
+  </div>
+  <p>Star Lab Games is the games label of <a href="https://starlabsystems.uk/">Star Lab Systems Limited</a>, registered in England and Wales, company number 16499571. Registered office: 71&#8209;75 Shelton Street, Covent Garden, London WC2H 9JQ. Google Play is a trademark of Google LLC.</p>
+</footer>
+</div>
+</body>
+</html>
